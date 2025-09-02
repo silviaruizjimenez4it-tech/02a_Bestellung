@@ -1,1 +1,41 @@
 {"id":"84f28e0b-fdd1-66a2-748c-f073e7a5","type":"InsertNode","followElement":{"id":"bc740139-ed78-416b-80b6-2188d9cf","type":"TaskNode","text":"Basic-JSON","followElement":{"id":"244cb177-b253-a6cb-b5b5-fbf2eb20","type":"InsertNode","followElement":null}}}
+
+food := leer;
+drink := leer;
+System.out.println(Guten Tag bei MD, Ihre Bestellung bitte!);
+System.out.println(Hamburger (1), Cheeseburger (2), Chilliburger (3));
+1 = System.console().readLine();
+switch (Burgerauswahl)
+{
+    case 1:
+        food .= Hamburger;
+        break;
+    case 2:
+        food := Cheeseburger;
+        break;
+    case 3:
+        food := Chilliburger;
+        break;
+}
+System.out.println(Möchten Sie ein Getränk dazu? (j/n));
+if (Bestellung fortsetzen? (Eingabe))
+{
+    System.out.println(Cola (1), Fanta (2), Spite (3));
+    2 = System.console().readLine();
+    switch (Getränkewahl)
+    {
+        case 1:
+            drink := Cola;
+            break;
+        case 2:
+            drink ;= Fanta;
+            break;
+        case 3:
+            drink := Sprite;
+            break;
+    }
+    System.out.println(Hier ist Ihre Bestellung; food und drink);
+} else {
+    System.out.println(Hier ist Ihre Bestellung; food);
+}
+System.out.println(Vielen Dank für Ihren Besuch und auf wiedersehen.);
