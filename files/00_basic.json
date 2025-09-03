@@ -33,6 +33,8 @@ if (Bestellung fortsetzen? (Eingabe))
         case 3:
             drink := Sprite;
             break;
+
+            
     }
     System.out.println(Hier ist Ihre Bestellung; food und drink);
 } else {
